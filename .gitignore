@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+.env.*.local
+
+# Database
+*.db
+*.sqlite3
+taskforge.db
+test_taskforge.db
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Python
+.pytest_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.cursor/
+.cursorignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docker
+docker-data/
+
+# Misc
+*.pem
+.vercel

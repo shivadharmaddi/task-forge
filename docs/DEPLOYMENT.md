@@ -13,7 +13,7 @@ This guide covers deploying TaskForge to production using Vercel (frontend) and 
 
 ### 1. Create a Web Service
 
-- Connect your private repository
+- Connect your GitHub repository
 - Root directory: `backend`
 - Build command: `pip install -r requirements.txt`
 - Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
@@ -46,7 +46,7 @@ For PostgreSQL, no disk is needed.
 
 ### 1. Import Project
 
-- Connect your private repository
+- Connect your GitHub repository
 - Root directory: `frontend`
 - Framework preset: Next.js
 
